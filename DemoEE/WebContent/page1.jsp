@@ -1,0 +1,102 @@
+<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
+    pageEncoding="ISO-8859-1"%>
+    <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="shortcut icon" href="docs-assets/ico/favicon.png">
+	     <title>PanoramArt</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="dist/css/bootstrap.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="navbar-fixed-top3.css" rel="stylesheet">
+
+    <!-- Just for debugging purposes. Don't actually copy this line! -->
+    <!--[if lt IE 9]><script src="../../docs-assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+    <![endif]-->
+    
+    <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCJJLnDnIq-VOgBSER-WUKnuFdbayLcoFs&sensor=false"> </script>
+
+      <script>
+     /* function initialize()
+      {
+      var mapProp = {
+        center:new google.maps.LatLng(37.0000,-120.0000),
+        zoom:7,
+        mapTypeId:google.maps.MapTypeId.ROADMAP
+        };
+      var map=new google.maps.Map(document.getElementById("map-canvas")
+        ,mapProp);
+      }
+
+      google.maps.event.addDomListener(window, 'load', initialize);*/
+</script> 
+
+      </head>
+
+  <body>
+
+    <!-- Fixed navbar -->
+    <div class="navbar navbar-default navbar-fixed-top" role="navigation">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#">PanoramArt</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+    <div class = "row" id="search_box">
+    	<div class = "col-lg-12">
+    	<div class="row">
+				<form class="form-horizontal" role="form" action="demoservlet">
+						<div class="form-group">
+								<div class="col-lg-8 col-lg-offset-2">
+										<input type="search" class="form-control" id="query" name="query" placeholder="Enter your Query"></input>
+								</div>
+						</div>
+  			</div>
+  			<div class="row">		
+						<div class="form-group">
+								<div id="search_button" class="col-lg-2 col-lg-offset-9">
+										<button type="submit" class="btn btn-default" >Search</button>
+								</div>
+						</div>
+				</form>
+			</div>
+			</div>
+    </div>
+        
+   <div class = "footer">
+	   <p>&copy; Shaarif Zia & Hardik Desai 2013</p>
+   </div>
+    </div> <!-- /container -->
+
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
+    <script src="dist/js/bootstrap.min.js"></script>
+ 
+     
+  </body>
+</html>

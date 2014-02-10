@@ -1,0 +1,28 @@
+body {
+  padding-top: 70px;
+}
+
+.footer {
+	margin-top: 20%;
+	text-align: center;
+	color:#000;
+	font-size: 25px;
+}
+#query{
+	height: 50px;
+}
+#search_box{
+	margin-top: 30%;
+}
+#search_button{
+	width:100%;
+}
+#map-canvas {
+height:600px;
+}
+#content{
+	height:600px;
+}
+td{
+	padding-right:20px;
+}

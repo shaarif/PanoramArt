@@ -1,0 +1,19 @@
+body {
+  padding-top: 70px;
+}
+.footer {
+	margin-top: 70px;
+	text-align: center;
+}
+#search_box{
+	margin-top: 10%;
+}
+#map-canvas {
+height:600px;
+}
+#content{
+	height:600px;
+}
+td{
+	padding-right:20px;
+}
